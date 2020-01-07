@@ -23,6 +23,9 @@
   },
   "author": "bodhsih",
   "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
   "dependencies": {
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-import": "^12.0.1",
@@ -43,5 +46,15 @@
     "webpack": "^4.0.1",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.8"
-  }
+  },
+  "files": [
+    "src/Home.re",
+    "src/Index.re",
+    "src/index.html",
+    "src/tailwind.css",
+    "src/assets/logo.jpeg",
+    "bsconfig.json",
+    "postcss.config.js",
+    "webpack.config.js"
+  ]
 }
