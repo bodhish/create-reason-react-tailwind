@@ -17,6 +17,10 @@
     "ReasonReact",
     "reason-react"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bodhish/create-reason-react-tailwind.git"
+  },
   "author": "bodhsih",
   "license": "MIT",
   "dependencies": {
