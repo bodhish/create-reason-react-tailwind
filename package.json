@@ -1,60 +1,34 @@
 {
   "name": "create-reason-react-tailwind",
-  "version": "0.1.0",
+  "version": "0.1.5",
+  "description": "A reason react starter with tailwind and webpack",
   "scripts": {
-    "build": "bsb -make-world",
-    "start": "bsb -make-world -w -ws _ ",
-    "clean": "bsb -clean-world",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack -w",
-    "webpack:production": "NODE_ENV=production webpack",
-    "server": "webpack-dev-server",
-    "re:build": "bsb -make-world -clean-world",
-    "re:watch": "bsb -make-world -clean-world -w"
+    "start": "node index.js"
   },
-  "keywords": [
-    "BuckleScript",
-    "ReasonReact",
-    "reason-react"
-  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/bodhish/create-reason-react-tailwind.git"
   },
-  "author": "bodhsih",
+  "author": "Bodhish Thomas",
   "license": "MIT",
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "reason-react",
+    "tailwind",
+    "webpack"
+  ],
   "engines": {
     "node": ">=8"
   },
+  "bugs": {
+    "url": "https://github.com/bodhish/create-reason-react-tailwind/issues"
+  },
+  "homepage": "https://github.com/bodhish/create-reason-react-tailwind#readme",
   "dependencies": {
-    "postcss-flexbugs-fixes": "^4.1.0",
-    "postcss-import": "^12.0.1",
-    "postcss-preset-env": "^6.7.0",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
-    "reason-react": ">=0.7.0",
-    "style-loader": "^0.23.1",
-    "tailwindcss": "^1.0.5",
-    "url-loader": "^2.1.0"
+    "inquirer": "^7.0.3"
   },
-  "devDependencies": {
-    "bs-platform": "^6.2.1",
-    "css-loader": "^3.1.0",
-    "file-loader": "^4.1.0",
-    "html-webpack-plugin": "^3.2.0",
-    "postcss-loader": "^3.0.0",
-    "webpack": "^4.0.1",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.8"
-  },
-  "files": [
-    "src/Home.re",
-    "src/Index.re",
-    "src/index.html",
-    "src/tailwind.css",
-    "src/assets/logo.jpeg",
-    "bsconfig.json",
-    "postcss.config.js",
-    "webpack.config.js"
-  ]
+  "bin": {
+    "crra": "./index.js"
+  }
 }
