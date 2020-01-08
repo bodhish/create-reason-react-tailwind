@@ -7,8 +7,7 @@ Reason react boilerplate generator
 ## Quick Start
 
 ```sh
-npm i -g create-reason-react-tailwind
-crra
+npx create-reason-react-tailwind
 ```
 
 #### What project template would you like to generate? (choose the template)
@@ -30,3 +29,12 @@ cd my-app
 ```
 
 Follow the instructions in `README.md`
+
+### CRRA
+
+Add create reason react app globally
+
+```sh
+npm i -g create-reason-react-tailwind
+crra
+```
