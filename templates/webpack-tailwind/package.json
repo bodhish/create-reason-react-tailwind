@@ -33,13 +33,13 @@
     "postcss-preset-env": "^6.7.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "reason-react": ">=0.7.0",
+    "reason-react": ">=0.8.0",
     "style-loader": "^0.23.1",
-    "tailwindcss": "^1.2",
+    "tailwindcss": "^1.4.6",
     "url-loader": "^2.1.0"
   },
   "devDependencies": {
-    "bs-platform": "^7.0.1",
+    "bs-platform": "^7.3.2",
     "css-loader": "^3.1.0",
     "file-loader": "^4.1.0",
     "html-webpack-plugin": "^3.2.0",
