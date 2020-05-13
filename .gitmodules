@@ -1,0 +1,3 @@
+[submodule "templates/tailwind-ppx-demo"]
+	path = templates/tailwind-ppx-demo
+	url = https://github.com/dylanirlbeck/tailwind-ppx-demo
