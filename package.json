@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/bodhish/create-reason-react-tailwind#readme",
   "dependencies": {
-    "inquirer": "^7.0.3"
+    "inquirer": "^7.2.0"
   },
   "bin": {
     "crra": "./index.js"
