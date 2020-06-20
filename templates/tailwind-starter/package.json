@@ -10,13 +10,13 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "reason-react": ">=0.8.0"
+    "reason-react": ">=0.9.0"
   },
   "scripts": {
-    "dev": "parcel index.html",
     "build": "parcel build index.html",
     "test": "echo \"Error: run tests from root\" && exit 1",
     "re:build": "bsb -make-world -clean-world",
-    "re:watch": "bsb -make-world -clean-world -w"
+    "re:watch": "bsb -make-world -clean-world -w",
+    "dev": "bsb -make-world -clean-world && parcel index.html"
   }
 }
