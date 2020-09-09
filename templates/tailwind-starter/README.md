@@ -1,4 +1,4 @@
-# tailwind-starter
+# Tailwind Starter
 
 A starter porject to play around with reason-react and tailwind
 
@@ -8,6 +8,10 @@ A starter porject to play around with reason-react and tailwind
 npm install
 npm run dev
 ```
+
+## gitignore
+
+rename `gitignore` to `.gitignore`
 
 ## Build Command
 
