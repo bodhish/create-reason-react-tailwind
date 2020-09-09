@@ -21,9 +21,6 @@
   "engines": {
     "node": ">=8"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "bugs": {
     "url": "https://github.com/bodhish/create-reason-react-tailwind/issues"
   },
