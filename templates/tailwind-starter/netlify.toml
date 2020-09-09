@@ -1,0 +1,9 @@
+[build]
+  base    = ""
+  publish = "dist"
+  command = "npm i && npm run re:build && npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
