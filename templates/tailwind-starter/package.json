@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "7.3.2",
-    "parcel-bundler": "^1.12.4",
-    "tailwindcss": "^1.8.3"
+    "bs-platform": "8.4.2",
+    "parcel": "^2.0.0-beta.1",
+    "autoprefixer": "^10.2.1",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
   },
   "dependencies": {
     "react": "^16.13.1",
