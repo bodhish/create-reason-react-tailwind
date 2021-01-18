@@ -2,6 +2,7 @@
 /dist
 /lib
 /node_modules
+/.parcel-cache
 
 # Ignore these associated with reason-react and bsb
 .merlin
