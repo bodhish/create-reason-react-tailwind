@@ -1,6 +1,6 @@
 {
   "name": "create-reason-react-tailwind",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "A reason react starter with tailwind and webpack",
   "scripts": {
     "start": "node index.js"
