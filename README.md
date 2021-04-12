@@ -1,8 +1,8 @@
 [![npm version](https://badge.fury.io/js/create-reason-react-tailwind.svg)](https://badge.fury.io/js/create-reason-react-tailwind)
 
-# Create Reason React App
+# Create Rescript / Reason React App
 
-Reason react boilerplate generator
+Rescript & Reason react boilerplate generator
 
 ## Quick Start
 
