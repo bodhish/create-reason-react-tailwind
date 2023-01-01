@@ -4,7 +4,7 @@
   "license": "MIT",
   "devDependencies": {
     "bs-platform": "8.4.2",
-    "parcel": "^2.0.0-beta.1",
+    "parcel": "^2.8.2",
     "autoprefixer": "^10.2.1",
     "postcss": "^8.2.4",
     "tailwindcss": "^2.0.2"
